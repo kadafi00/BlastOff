@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<!-- Travis Moore -->
+
+<head>
+    <title>
+        Travis Moore's CSC102 page
+    </title>
+    <style>
+         p#writeF {
+            color: rgb(13, 201, 226);
+        }
+        p#testP {
+            color: rgb(13, 201, 226);
+        }
+
+        p#countDownTimer {
+            color: rgb(49, 226, 13);
+        }
+
+        h1 {
+            text-transform: uppercase;
+            color: rgb(255, 0, 212);
+        }
+
+        body {
+            background-color: rgb(88, 12, 151);
+        }
+    </style>
+    <script>
+        alert("This is a test of the alert function.");
+    </script>
+</head>
+
+<body>
+    <img src="UATspaceLogo.jpg">
+    <br>
+    <h1>UAT Space Program</h1>
+    <script>
+        document.write(`<p id="writeF">This is a test of the document.write function.</p>`);
+    </script>
+
+    <p id="testP">This is a test of the paragraph tags</p>
+
+    <br>
+    <button>Start</button>
+    <button>Stop</button>
+    <br>
+    <br>
+    <p id="countDownTimer">waiting to start...</p>
+
+    <script>
+        var currTime = 50;
+        document.getElementById("countDownTimer").innerHTML = currTime;
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("countDownTimer").innerHTML = currTime;
+        }, 5000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("countDownTimer").innerHTML = currTime;
+        }, 10000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("countDownTimer").innerHTML = currTime;
+        }, 15000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("countDownTimer").innerHTML = currTime;
+        }, 20000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("countDownTimer").innerHTML = currTime;
+        }, 25000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("countDownTimer").innerHTML = currTime;
+        }, 30000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("countDownTimer").innerHTML = currTime;
+        }, 35000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("countDownTimer").innerHTML = currTime;
+        }, 40000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("countDownTimer").innerHTML = currTime;
+        }, 45000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("countDownTimer").innerHTML = "Blastoff!";
+        }, 50000);
+
+
+    </script>
+</body>
+
+</html>
